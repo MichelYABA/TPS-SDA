@@ -1,0 +1,8 @@
+plot [0:10][0:1000] 'tas_binomial_time_java.plot' using 1:3 w lines title "Amortized Java"
+
+plot 'tas_binomial_lien_java.plot' using 1:2 w boxes title "Nombre de liens effectuees"
+
+
+plot 'tas_binomial_memory_java.plot' using 1:2 w lines title "Espace memoire inutilise"
+
+

@@ -1,0 +1,12 @@
+plot [0:1100000][0:1000] 'tas_binaire_time_java.plot' using 1:3 w lines title "Amortized Java"
+
+plot 'tas_binaire_permutation_java.plot' using 1:2 w boxes title "Nombre de permutations effectuees"
+
+plot 'tas_binaire_permutation_java.plot' using 1:2 w lines title "Nombre de permutations effectuees"
+
+plot 'tas_binaire_memory_java.plot' using 1:2 w lines title "Espace memoire inutilise"
+
+
+plot [0:1100000][0:1000] 'avl_time_java.plot' using 1:3 w lines title "Amortized Java"
+
+
